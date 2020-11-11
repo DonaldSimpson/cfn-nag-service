@@ -10,6 +10,10 @@ COPY . /
 RUN gem install bundler
 RUN gem install sinatra
 RUN gem install cfn-nag
+RUN gem install rbnacl
+RUN gem install test-unit
+RUN gem install mocha
+RUN gem install aws-sdk-ssm
 RUN bundle install
 
 # none | self | cert
