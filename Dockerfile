@@ -25,7 +25,7 @@ ENV cert_private_path ''
 ENV private_key_ssm_path ''
 ENV private_key_override ''
 
-ENV AWS_REGION us-east-1
+ENV AWS_REGION eu-west-2
 
 ENTRYPOINT ruby -I / /cfn-nag-service/sinatra.rb
 
