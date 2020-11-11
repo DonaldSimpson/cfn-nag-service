@@ -8,6 +8,7 @@ RUN apk add openssl build-base libffi libsodium
 COPY . /
 
 RUN gem install bundler
+RUN gem install sinatra
 RUN bundle install
 
 # none | self | cert
