@@ -13,6 +13,7 @@ RUN gem install cfn-nag
 RUN gem install rbnacl
 RUN gem install test-unit
 RUN gem install mocha
+RUN gem install psych
 RUN gem install aws-sdk-ssm
 RUN bundle install
 
