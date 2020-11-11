@@ -7,7 +7,6 @@ RUN apk add openssl build-base libffi libsodium
 # could be more selective
 COPY . /
 
-
 RUN gem install bundler
 RUN bundle install
 
