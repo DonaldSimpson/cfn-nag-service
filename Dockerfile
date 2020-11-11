@@ -9,6 +9,7 @@ COPY . /
 
 RUN gem install bundler
 RUN gem install sinatra
+RUN gem install cfn-nag
 RUN bundle install
 
 # none | self | cert
